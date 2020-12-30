@@ -18,7 +18,7 @@ export default {
     };
   },
   mounted() {
-    axios.get('http://47.113.204.2:3000/api/users').then((res) => {
+    axios.get('http://localhost:3000/api/users').then((res) => {
       this.users = res.data;
     });
   },
